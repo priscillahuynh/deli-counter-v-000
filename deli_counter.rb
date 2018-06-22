@@ -15,4 +15,6 @@ end
 def take_a_number(array,name)
   array.push(name)
   puts "Welcome, #{name}. You are number #{array.length} in line."
+  if array.length == 0
+    puts "The line is empty"
 end
