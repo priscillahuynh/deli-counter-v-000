@@ -8,5 +8,6 @@ def line(array)
     array.each_with_index do |name, index|
     phase<<"#{index+1}.#{name} "
     end
+    puts phrase
   end
 end
