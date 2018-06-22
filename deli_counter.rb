@@ -6,7 +6,7 @@ def line(array)
     puts "The line is currently empty."
   else array.length>0
     array.each_with_index do |name, index|
-    puts phrase+="#{index+1}.#{name} "
+    phrase<<"#{index+1}.#{name} "
     end
   end
 end
